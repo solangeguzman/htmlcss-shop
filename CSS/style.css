@@ -176,10 +176,18 @@ color: red;
         color: red;
     }
     
-    
-   
-    
 
+    /* da rivedere*/
+    
+    .img:hover{
+        background-image: url(../img/1-hover.jpg);
+        display: none; 
+        width: 100px;
+        height: 200px;
+        }
+
+
+    
 
 
     
