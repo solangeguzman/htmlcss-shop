@@ -10,61 +10,126 @@
     }
     
     .fl{
-        float: left;
-        
-        
+        float: left;   
     }
     
     
     .container {
         max-width: 1200px;
         margin: 0 auto;
-    }
-    
-  .container-img{
-       position: relative;
-       background-image: url(.../img/4-hover.webp);
-       background-size: cover;  
-       background-position: center;
-       height: 300px;
-       width: 50px;
+        
     }
 
-    
-   #img-opacity{
-   position: absolute;
-   background: #140f0f;
-   opacity: 0.7;
-   height: 400px;
-   width: 290px;
-   
-   }
-    
+    .content {
+        background-color: rgb(255, 255, 255);
+        height: 700px;
+        padding: 10%;
+        position: relative;
+    }
 
-   .containerbox{
+  #img{
+      position: absolute;
+  }
+
+
+.containerbox1{
+       position: absolute;
+       margin-top: 100%;
        width: 55px;
-       height: 40px;
+       height: 30px;
        border: 1px solid rgb(2, 2, 2);
-       background-color: rgb(207, 39, 117);
-   }
+       background-color: rgb(243, 12, 12);
+       padding: 2%;
+    }
+    
+.container2{ 
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 70px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(17, 85, 28);
+    padding: 1%;
+}
 
 
-   .ex-1{
-       position: relative;
-       top:65%;
-   }
+.containerbox2{
+    position: absolute;
+    margin-top: 100%;
+    width: 55px;
+    height: 30px;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(243, 12, 12);
+    padding: 2%;
+ }
+ 
+ 
+ .containerv{ 
+    position: absolute;
+    margin-top: 100%;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(40, 97, 35);
+    padding: 1%;
+}
+
+
+
+.container3{ 
+    position: absolute;
+    margin-top: 100%;
+    width: 80px;
+    height: 35px;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: rgb(40, 97, 35);
+}
 
     .container4{
-        position: relative;
+        margin-top: 150%;
         width: 290px;
-        height: 50px;
-        background-color: rgb(136, 221, 119);
+        height: 80px;
+        background-color: rgb(255, 255, 255);
     }
+    .container5{
+        margin-top: 155%;
+        width: 290px;
+        height: 80px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container6{
+        margin-top: 15px;
+        width: 290px;
+        height: 80px;
+        background-color: rgb(39, 122, 36);
+    
+    }
+    .container7{
+        margin-top: 15px;
+        width: 290px;
+        height: 80px;
+        background-color: rgb(47, 139, 35);
+    
+    }
+    
+    .container8{
+        margin-top: 155%;
+        width: 290px;
+        height: 80px;
+        background-color: rgb(255, 255, 255);
+    
+    }
+
+
    .text{
        color: rgb(255, 255, 255);
        text-align: center;
-       margin-top: 10px;
+       
    }
+   
+
 
    #descrizione1{
       text-align: left;
@@ -106,21 +171,14 @@ color: red;
         padding-left: 20px;
     }
     
-    
-    .content {
-        background-color: rgb(255, 255, 255);
-        height: 500px;
-        padding: 10%;
+    #prezzo{
+        color: red;
     }
     
-    .content1 {
-        background: rgb(136, 221, 119);
-        height: 500px;
-        background-image: url(../img/3.webp);
-    }
     
-    .foto1{
-        background-image: url(../img/1.webp);
-        height: 100px;
-        width: 100px;
-    }
+   
+    
+
+
+
+    
